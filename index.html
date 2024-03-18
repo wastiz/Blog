@@ -5,29 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Blog</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
-    <header>
+    <header class="default-style">
         <nav>
             <div class="container">
                 <div class="row">
                     <div class="col nav-section">
-                        <a href="index.html">
-                            <img src="images/logo.png" alt="logo">
+                        <a class='nav-a' href="index.html">
+                            Artjom's blog
                         </a>
                     </div>
                     <div class="col nav-section">
-                        <a href="about.html">About me</a>
+                        <a class='nav-a' href="about.html">About me</a>
                     </div>
                     <div class="col nav-section">
-                        <a href="contacts.html">Contacts</a>
+                        <a class='nav-a' href="contacts.html">Contacts</a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
+    <br>
+    <main class="default-style">
+        <article>
+            <h3 class="text-light">Posts</h3>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <a class="article-href" href="post1.html">
+                            <div class="article-box">
+                                <img src="https://th.bing.com/th/id/OIP.rFwsyhDU3Ds1igWydqPpeQHaEo?rs=1&pid=ImgDetMain" alt="">
+                                <div>
+                                    <h4 class="text-light">Post about</h4>
+                                    <p class="text-light">Lore Ipsum tralala</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="article-href" href="post2.html">
+                            <div class="article-box">
+                                <img src="https://th.bing.com/th/id/OIP.HLuY60jzx5puuKjbqmWRRwHaEK?rs=1&pid=ImgDetMain" alt="">
+                                <div>
+                                    <h4 class="text-light">Post about</h4>
+                                    <p class="text-light">Lore Ipsum tralala</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+    <br>
+    <footer class="default-style">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h4>Location</h4>
+                    <p>Tallin, Lasnamae</p>
+                </div>
+                <div class="col">
+                    <h4>Contacts</h4>
+                    <a href="contacts.html">Click here</a>
+                </div>
+                <div class="col">
+                    <h4>Languages</h4>
+                    <p>Estonian, English, Russian</p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="js/bootstrap.js"></script>
 </body>
 </html>
