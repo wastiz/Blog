@@ -12,7 +12,7 @@ body {
     gap: 5%;
 }
 .default-style {
-    width: 100%;
+    width: 90%;
     background-color: orange;
     border-radius: 5px;
 }
@@ -33,12 +33,11 @@ nav {
     font-weight: bold;
 }
 main {
-    height: 630px;
+    height: auto;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 20px;
     padding-bottom: 20px;
-    overflow-y: scroll;
 }
 .article-text {
     text-indent: 20px;
@@ -49,9 +48,10 @@ main {
 }
 footer {
     height: 100px;
-    padding-left: 10%;
+    padding-left: 10%;  
     padding-right: 10%;
     padding-top: 20px;
+    margin: 20px;
 }
 footer p {
     color:white;
