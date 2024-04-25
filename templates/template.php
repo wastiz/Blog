@@ -13,8 +13,11 @@
     <main class="default-style">
         <?php include $content; ?>
     </main>
-
+    <div class='flex-centered'>
+        <hr class='default-hr'>
+    </div>
     <?php include 'templates/footer.html'; ?>
     <script src="js/bootstrap.js"></script>
+    <script src='script.js'></script>
 </body>
 </html>
