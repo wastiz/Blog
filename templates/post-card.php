@@ -9,8 +9,8 @@
             
             <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                    <a class="btn btn-outline-primary" href="post.php?id=<?php echo urlencode($row['id']); ?>">View</a>
-                    <a class="btn btn-warning" href="/Blog/edit-post.php?id=<?php echo $row['id']; ?>">Edit</a>
+                    <a class="btn btn-outline-primary" href="post.php?id=<?php echo urlencode($row['id']); ?>">Read</a>
+                    <a class="btn btn-warning" href="edit-post.php?id=<?php echo $row['id']; ?>">Edit</a>
                     <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-post-id='<?php echo $row['id']; ?>' data-bs-target="#deletePostModal_<?php echo $row['id']; ?>">
                         Delete
                     </button>
